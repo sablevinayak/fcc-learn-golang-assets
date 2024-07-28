@@ -11,7 +11,7 @@ In this step, we'll be adding an endpoint to create new users on the server. We'
 SQLC is just a command line tool, it's not a package that we need to import. I recommend [installing](https://docs.sqlc.dev/en/latest/overview/install.html) it using `go install`:
 
 ```bash
-go install github.com/kyleconroy/sqlc/cmd/sqlc@latest
+go install github.com/kyleconroy/sqlc-dev/cmd/sqlc@latest
 ```
 
 Then run `sqlc version` to make sure it's installed correctly.
